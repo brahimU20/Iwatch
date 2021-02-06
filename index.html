@@ -3,66 +3,155 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.2/css/all.css"
+      integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu"
+      crossorigin="anonymous"
+    />
     <link rel="stylesheet" href="/css/style.css" />
+
     <title>Iwatch</title>
   </head>
   <body>
     <nav>
       <div class="logo">
-        <h4>Iwatch</h4>
-      </div>
-      <ul class="nav-links">
-        <li><a href="#">Home</a></li>
-        <li><a href="#">About</a></li>
-      </ul>
-      <div class="burger">
-        <div class="line1"></div>
-        <div class="line2"></div>
-        <div class="line3"></div>
+        <img src="/img/WhatsApp Image 2021-02-01 at 19.18.58.jpeg" alt="" />
       </div>
     </nav>
+    <div class="Bar"></div>
     <section>
-      <div class="circel"></div>
-      <div class="content">
-        <div class="textBox">
-          <h2>
-            It's not just a watch<br />
-            It's <span class="text">Iwatch</span>
-          </h2>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore
-            eveniet quo libero, dignissimos consequuntur nostrum, delectus eaque
-            perspiciatis veniam amet eius! Suscipit, aliquam. Dolorem placeat
-            saepe recusandae aut? Maxime, sequi!
-          </p>
-        </div>
-
+      <div class="container">
         <div class="imgBox">
-          <img src="/img/black.png" class="iwatch" />
+          <img src="/img/copyblack.png" class="iwatch" />
+        </div>
+        <div class="textBox">
+          <h2>.معصمك مستقبل صحتك</h2>
+          <p>
+            أفضل إصدار لهده الساعة لطلب و الإستفسار إضغط الزر IWATCH Serie 6
+            Master Copy
+          </p>
+          <ul class="thumb">
+            <li>
+              <img
+                src="/img/black.png "
+                onclick="imgSlider('/img/copyblack.png');changeCircleColor('#3d3938')"
+              />
+            </li>
+            <li>
+              <img
+                src="/img/pink.png"
+                onclick="imgSlider('/img/copypink.png');changeCircleColor('#F7DBD0')"
+              />
+            </li>
+            <li>
+              <img
+                src="/img/white.png"
+                onclick="imgSlider('/img/copywhite.png');changeCircleColor('#DFDEDC')"
+              />
+            </li>
+          </ul>
+          <a class="btn" href="#">اشتري الآن</a>
         </div>
       </div>
-      <ul class="thumb">
-        <li>
-          <img
-            src="/img/black.png "
-            onclick="imgSlider('/img/black.png');changeCircleColor('#3d3938')"
-          />
-        </li>
-        <li>
-          <img
-            src="/img/pink.png"
-            onclick="imgSlider('/img/pink.png');changeCircleColor('#F7DBD0')"
-          />
-        </li>
-        <li>
-          <img
-            src="/img/white.png"
-            onclick="imgSlider('/img/white.png');changeCircleColor('#DFDEDC')"
-          />
-        </li>
-      </ul>
     </section>
-    <a class="btn" href="#">Buy Now</a>
+    <div class="Bar"></div>
+    <section>
+      <div class="container">
+        <div class="imgBox2">
+          <img src="/img/product.png" alt="" />
+        </div>
+
+        <div class="textBox2">
+          <h1>:أهم مميزات هذا الجهاز</h1>
+          <p>
+            تحقق من مستوى الأكسجين في دمك بمساعدة تطبيق مبتكر ومستشعر متطور
+            جديد، واحصل على تخطيط للقلب في أي مكان وزمان. واطّلع بلمح البصر على
+            مقاييس اللياقةالتي تعرضها عليك شاشة المعززة التي لا تنطفئ عندما تكون
+            على معصمك، تنعم بحياة صحية وتبقى أكثر نشاطاً وتواصلاً مع الآخرين
+          </p>
+          <p>
+            شاشة كاملة LED بدون قطع أسفل الشاشة مقاس الشاشة 1.75 <br />
+            نفس مواصفات ومميزات ساعة ابل الاصلية<br />
+            مقاس 44 شاشة ممتازه مشبعة ب الألوان<br />
+            IP68 مقاوم لماء ب معيار <br />
+            سهولة الاقتران ب الجوال<br />
+            يوجد فيها الاتصال والرد على المكالمات مع مايك<br />
+            بطارية قوية<br />
+            الاطلاع ع الشعارات والرد عليها<br />
+            قياس النبض والخطوات<br />
+            فيها 7 خلفيات مطابقة لابل<br />
+            يركب عليها جميع اكسسوارات ابل الاصليه مقاس 44<br />
+          </p>
+          <a class="btn" href="#">اشتري الآن</a>
+        </div>
+      </div>
+    </section>
+    <div class="Bar"></div>
+    <section>
+      <div class="container">
+        <div class="carddisplay">
+          <div class="card">
+            <div class="namegift">
+              <h2>one product</h2>
+              <p>nice for one percen</p>
+            </div>
+            <img src="/img/product.png" alt="" / >
+            <div class="price">
+              <p class="old">200MAD</p>
+              <p class="new">150MAD</p>
+              <p class="sold">sold 30%</p>
+            </div>
+            <a class="btn" href="#">اشتري الآن</a>
+          </div>
+          <div class="card">
+            <div class="namegift">
+              <h2>one product</h2>
+              <p>nice for one percen</p>
+            </div>
+            <img src="/img/product.png" alt="" / >
+            <div class="price">
+              <p class="old">200MAD</p>
+              <p class="new">150MAD</p>
+              <p class="sold">sold 30%</p>
+            </div>
+            <a class="btn" href="#">اشتري الآن</a>
+          </div>
+          <div class="card">
+            <div class="namegift">
+              <h2>one product</h2>
+              <p>nice for one percen</p>
+            </div>
+            <img src="/img/product.png" alt="" / >
+            <div class="price">
+              <p class="old">200MAD</p>
+              <p class="new">150MAD</p>
+              <p class="sold">sold 30%</p>
+            </div>
+            <a class="btn" href="#">اشتري الآن</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div id="mainfooter">
+        <h3>Iwatch</h3>
+        <ul class="socials">
+          <li>
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+          </li>
+        </ul>
+      </div>
+      <div class="footerBottom">
+        <p>copyright &copy;2021 Iwatch</p>
+      </div>
+    </footer>
 
     <script src="/js/app.js"></script>
   </body>
